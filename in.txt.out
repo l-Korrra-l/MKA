@@ -1,0 +1,11 @@
+
+main
+{
+declare integer a;
+declare integer k;
+a=5;
+k=3;
+if(a>k)[a=4;]
+print a;
+return 0;
+};

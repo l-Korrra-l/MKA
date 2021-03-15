@@ -1,0 +1,10 @@
+m
+{
+dti;
+dti;
+i=l;
+i=l;
+?(i>i)[i=l;]
+pi;
+rl;
+};

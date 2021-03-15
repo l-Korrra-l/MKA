@@ -1,0 +1,19 @@
+integer function fi(integer h, integer y)
+{
+declare integer z;
+z= h+y;
+return z;
+};
+main
+{
+declare integer a;
+declare integer k;
+declare string sc;
+declare y;
+a = 123;
+y = 5;
+sc = '13';
+k = fi(a,y);
+print 'пр';
+return 0;
+};
