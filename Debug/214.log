@@ -1,0 +1,45 @@
+﻿Сборка начата 15.12.2020 11:37:29.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Documents\ЯП\Новая папка\LPLab14\214.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (LP_Lab16.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+     1>InitializeBuildStatus:
+         Создание "Debug\MKA-2020.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt LPLab14.cpp
+         LPLab14.cpp
+     1>C:\Users\User\Documents\ЯП\Новая папка\LPLab14\LPLab14.cpp(53,21): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\ЯП\Новая папка\LPLab14\Debug\MKA-2020.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\User\Documents\ЯП\Новая папка\LPLab14\Debug\MKA-2020.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\ЯП\Новая папка\LPLab14\Debug\MKA-2020.lib" /MACHINE:X86 Debug\LAN.obj
+         Debug\ASMGenerator.obj
+         Debug\Error.obj
+         Debug\FST.obj
+         Debug\GRB.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\Log.obj
+         Debug\LPLab14.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Out.obj
+         Debug\Parm.obj
+         Debug\Polska.obj
+         214.vcxproj -> C:\Users\User\Documents\ЯП\Новая папка\LPLab14\Debug\MKA-2020.exe
+       FinalizeBuildStatus:
+         Файл "Debug\MKA-2020.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\MKA-2020.tlog\MKA-2020.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Documents\ЯП\Новая папка\LPLab14\214.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\User\Documents\ЯП\Новая папка\LPLab14\214.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (LP_Lab16.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "C:\Users\User\Documents\ЯП\Новая папка\LPLab14\214.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\Documents\ЯП\Новая папка\LPLab14\LPLab14.cpp(53,21): warning C4018: <: несоответствие типов со знаком и без знака
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.71
